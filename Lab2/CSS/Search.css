@@ -1,0 +1,82 @@
+#headerLabel1 {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: xxx-large;
+    padding-top: 1px;
+    margin: 1px;
+}
+
+.nav{
+    text-decoration: none;
+    float: right;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+}
+
+.nav:hover{
+    text-decoration:underline;
+    color: blue;
+}
+
+.nav:visited{
+    text-decoration: none;
+    float: right;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+}
+
+div.search {
+    padding:10px 0;
+}
+form {
+    position:relative;
+    width:300px;
+    margin:0 auto;
+}
+input,button {
+    border:none;
+    outline:none;
+}
+input {
+    width:100%;
+    height:42px;
+    padding-left:13px;
+}
+button {
+    height:42px;
+    width:42px;
+    cursor:pointer;
+    position:absolute;
+    margin-top: 100px;
+}
+.bar8 form {
+    height:42px;
+}
+.bar8 input {
+    width:300px;
+    padding:0 42px 0 15px;
+    border-bottom:2px solid transparent;
+    background:transparent;
+    position:absolute;
+    top:0;
+    right:0;
+    z-index:2;
+    margin-top: 100px;
+    border-bottom:2px solid #F9F0DA;
+}
+
+.bar8 button {
+    background:#683B4D;
+    top:0;
+    right:0;
+    z-index: 3;
+}
+.bar8 button:before {
+    content:"Go";
+    font-family:FontAwesome;
+    font-size:16px;
+    color:#F9F0DA;
+}
+

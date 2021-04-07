@@ -1,0 +1,146 @@
+#headerLabel1 {
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: xxx-large;
+    padding-top: 1px;
+    margin: 1px;
+}
+
+.nav{
+    text-decoration: none;
+    float: right;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+}
+
+.nav:hover{
+    text-decoration:underline;
+    color: blue;
+}
+
+.nav:visited{
+    text-decoration: none;
+    float: right;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+}
+
+.pictureDisplayIntroduction{
+    color: gray;
+    font-size: medium;
+    text-align: center;
+    width: 60%;
+    margin-top: -50px;
+}
+
+.pictureDisplayHeader {
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "Times New Roman";
+}
+
+.learnMore{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.learnMore:hover{
+    font-size: 150%;
+    color: blue;
+    text-decoration:underline;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+#bd{
+    height: 100%;
+    width: max-content;
+    margin: 10px auto 10px;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin:10px auto 0 auto;
+    box-shadow: 0 0 5px green;
+    overflow: hidden;
+}
+.container .wrap {
+    position: absolute;
+    width: 4200px;
+    height: 400px;
+    z-index: 1;
+}
+.container .wrap a img {
+    float: left;
+    width: 600px;
+    height: 400px;
+}
+.container .buttons {
+    position: absolute;
+    right: 5px;
+    bottom:40px;
+    width: 150px;
+    height: 10px;
+    z-index: 2;
+}
+.container .buttons span {
+    margin-left: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+}
+.container .buttons span.on{
+    background-color: red;
+}
+.container .arrow {
+    position: absolute;
+    top: 35%;
+    color: white;
+    padding:0px 14px;
+    border-radius: 50%;
+    font-size: 50px;
+    z-index: 2;
+    display: none;
+}
+.container .arrow_left {
+    left: 10px;
+}
+.container .arrow_right {
+    right: 10px;
+}
+.container:hover .arrow {
+    display: block;
+}
+.container .arrow:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+}
+#mirror {
+    position: absolute;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+}
+
